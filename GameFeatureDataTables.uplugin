@@ -1,0 +1,34 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Game Feature Data Tables",
+	"Description": "A system to add Parent Data Tables to Composite Data Tables via Game Feature Actions",
+	"Category": "GameFeatures",
+	"CreatedBy": "MajorT",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GameFeatureDataTables",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GameFeatureDataTablesEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		}
+	]
+}
